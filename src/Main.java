@@ -15,6 +15,7 @@ public class Main {
         System.out.println(list.contains("test3"));
         list.remove("foo");
         list.remove("bar");
+        iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
@@ -144,12 +145,12 @@ public class Main {
         // write your code here
 
         Main main = new Main();
-        //main.hashSet();
-        //main.arrayExample();
-        //main.arrayDeque();
-        //main.queue();
-        //main.map();
-        //main.hashSetEx();
+        main.hashSet();
+        main.arrayExample();
+        main.arrayDeque();
+        main.queue();
+        main.map();
+        main.hashSetEx();
         main.testPerformance();
     }
 }
